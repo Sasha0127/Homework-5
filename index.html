@@ -1,14 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <meta charset="utf-8"/>
+      <meta charset="utf-8"/>
+      <link rel="stylesheet" href="styles.css">
         <title>News</title>
     </head>
     <body>
         <header>
-            <a href="/">LATEST NEWS</a>
+            <a class="latest-news" href="/">LATEST NEWS</a>
             <nav>
-                <button>View All<span role="img" aria-label="Arrow">&#x27A1 &#xFE0F</span></button>
+                <button>View All<span role="img" aria-label="Arrow">&#x27A1&#xFE0F</span></button>
             </nav>
         </header>
         <main>
@@ -20,17 +21,33 @@
            >
             </video>
           </div>
-          <div>
-            <img
-            src="./images/medicine (1).jpg" width="312px" height="236px"/>
-            <p>Tailoring treatments to individual genetic profiles</p>
-            <p><i>Health - <time datetime="2024-09-09">Sep 9, 2024</i></time></p>
-          </div>
-          <div>
-            <img src="./images/parcels (1).jpg" width="432px" height="266px"/>
-            <p>Strategies for success in a competitive landscape</p>
-            <p><i>Business - <time datetime="2024-09-09">Sep 9, 2024</i></time></p>
-          </div>
+          <ul>
+            <li>
+               <img src="./images/geopolitics.jpg" width="312px" heigh="236px"/>
+               <p class="geopolitics-text" >The effects of geopolitical shifts on global security</p>
+               <p class="datetime"><i>World News - <time datetime="2024-09-09">Sep 9, 2024</time></i></p>
+            </li>
+            <li>
+              <img src="./images/sports.jpg" width="312px" heigh="236px"/>
+              <p class="sports-text">Affect the integrity and future of professional sports</p>
+              <p class="datetime"><i>Sports - <time datetime="2024-09-09">Sep 9, 2024</time></i></p>
+            </li>
+            <li>
+              <img src="./images/medicine.jpg" width="432px" height="266px"/>
+            <p class="medicine-text">Tailoring treatments to individual genetic profiles</p>
+            <p class="datetime"><i>Health - <time datetime="2024-09-09">Sep 9, 2024</time></i></p>
+            </li>
+            <li>
+               <img src="./images/parcels.jpg" width="432px" height="266px"/>
+            <p class="parcels-text">Strategies for success in a competitive landscape</p>
+            <p class="datetime"><i>Business - <time datetime="2024-09-09">Sep 9, 2024</time></i></p>
+            </li>
+            <li>
+              <img src="./images/innovation-hubs.jpg" width="432px" height="266px"/>
+              <p class="innovation-hubs-text">Innovation hubs are transforming traditional business models</p>
+              <p class="datetime"><i>Business - <time datetime="2024-09-09">Sep 9, 2024</time></i></p>
+            </li>
+            </ul>
         </main>
         <footer>
             <p><span role="img" aria-label="Star">&#x2B50</span>Copyright 2024 - The News - All rights reserved<span role="img" aria-label="Star">&#x2B50</span></p>
